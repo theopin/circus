@@ -1,8 +1,10 @@
-package circus
+package circus;
 
 import circus.animal.Animal;
 import circus.animal.Duck;
 import circus.animal.Parrot;
+
+import circus.stuff.Equipment;
 import circus.stuff.Ladder;
 import circus.stuff.Cannon;
 

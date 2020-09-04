@@ -1,6 +1,8 @@
 package circus.stuff;
 
-public class Cannon extends circus.Equipment {
+
+
+public class Cannon extends Equipment {
 
     public Cannon(int purchasePrice) {
         super(purchasePrice);

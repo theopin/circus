@@ -3,6 +3,7 @@ package circus;
 import circus.animal.Animal;
 import circus.animal.Bird;
 import circus.animal.Parrot;
+import circus.animal.Duck;
 
 public class Trainer {
     public static void main(String[] args) {
