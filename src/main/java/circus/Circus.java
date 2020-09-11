@@ -6,9 +6,12 @@ import circus.animal.Parrot;
 
 import circus.stuff.Equipment;
 import circus.stuff.Ladder;
-
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Circus {
+
+    ArrayList<Animal> animalArrayList = new ArrayList<>(Arrays.asList(animals));
     private static Animal[] animals = {
     };
     private static Equipment[] equipments = {
@@ -25,16 +28,16 @@ public class Circus {
     }
 
         int total = 0;
-            }
 
 
-        }
         return total;
     }
 
     public static void main(String[] args) {
         makeAnimalsTalk();
-        System.out.println("Total value of equipments " + calculateValue(equipments));
-        System.out.println("Total value of animals " + calculateValue(animals));
+        System.out.println("Index of Louie: " + animalArrayList.indexOf(louie));
+        animalArrayList.remove(louie);
+        System.out.println("Index of Louie: " + animalArrayList.indexOf(louie));
+
     }
 }
