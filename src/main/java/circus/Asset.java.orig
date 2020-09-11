@@ -1,0 +1,9 @@
+package circus;
+
+public interface Asset {
+<<<<<<< HEAD
+    public int getValue();
+=======
+    int getValue();
+>>>>>>> upstream/master
+}

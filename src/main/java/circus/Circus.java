@@ -6,13 +6,10 @@ import circus.animal.Parrot;
 
 import circus.stuff.Equipment;
 import circus.stuff.Ladder;
-import circus.stuff.Cannon;
 
 
 public class Circus {
     private static Animal[] animals = {
-            new Duck(),
-            new Parrot()
     };
     private static Equipment[] equipments = {
             new Ladder(50),
@@ -27,18 +24,8 @@ public class Circus {
         }
     }
 
-    private static int calculateValue(Asset[] assets) {
         int total = 0;
-        for (Asset a : assets) {
-            if (a.getValue() <= 5) {
-                System.out.println("Ignoring low value item: " + a.getValue());
-                continue;
             }
-            total += a.getValue();
-            System.out.println("Adding item value: " + a.getValue());
-            // some
-            // more
-            // code
 
 
         }
